@@ -1,0 +1,32 @@
+{
+  "name": "erfan-mongo-json-backup",
+  "version": "1.0.2",
+  "description": "Backup all collections data inside a folder in .json files with mongoose and mongoexport.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/efijoon/erfan-mongo-json-backup.git"
+  },
+  "bugs": {
+    "url": "https://github.com/efijoon/erfan-mongo-json-backup/issues"
+  },
+  "homepage": "https://github.com/efijoon/erfan-mongo-json-backup#readme",
+  "main": "backup.js",
+  "scripts": {
+    "start": "node backup.js"
+  },
+  "dependencies": {
+    "mongoose": "^6.1.6"
+  },
+  "keywords": [
+    "mongo",
+    "mongoose",
+    "backup",
+    "json-backup",
+    "database-backup",
+    "mongo-backup",
+    "nodejs"
+  ],
+  "author": "Erfan Poursina",
+  "license": "Apache License 2.0",
+  "peerDependencies": {}
+}
